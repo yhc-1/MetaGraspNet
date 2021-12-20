@@ -1,6 +1,4 @@
-# MetaGraspNet
-
-MetaGraspNet dataset
+# MetaGraspNet Dataset
 There has been increasing interest in smart factories powered by robotics systems to tackle repetitive, laborious tasks. One particular impactful yet challenging task in robotics-powered smart factory applications is robotic grasping: using robotic arms to grasp objects autonomously in different settings.
 Robotic grasping requires a variety of computer vision tasks such as object detection, segmentation, grasp prediction, pick planning, etc. While significant progress has been made in leveraging of machine learning for robotic grasping, particularly with deep learning, a big challenge remains in the need for large-scale, high-quality RGBD datasets that cover a wide diversity of scenarios and permutations.
 

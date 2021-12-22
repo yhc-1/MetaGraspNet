@@ -8,11 +8,11 @@ To tackle this big, diverse data problem, we are inspired by the recent rise in 
 <img src=".github/Image_Dataset.png" >
 
 The dataset (5 difficulties) can be accessed at:
-a. https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy
-b. https://www.kaggle.com/metagrasp/metagraspnetdifficulty2-medium
-c. https://www.kaggle.com/metagrasp/metagraspnetdifficulty3-hard1
-d. https://www.kaggle.com/metagrasp/metagraspnetdifficulty4-hard2
-f. https://www.kaggle.com/metagrasp/metagraspnetdifficulty5-very-hard
+- a) https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy
+- b) https://www.kaggle.com/metagrasp/metagraspnetdifficulty2-medium
+- c) https://www.kaggle.com/metagrasp/metagraspnetdifficulty3-hard1
+- d) https://www.kaggle.com/metagrasp/metagraspnetdifficulty4-hard2
+- f) https://www.kaggle.com/metagrasp/metagraspnetdifficulty5-very-hard
 
 ### metagraspnet_metric.py
 Contains general metagraspnet evaluation script

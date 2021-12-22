@@ -32,3 +32,17 @@ Contains a script to use with coco api on the AP score for segmentation evaluati
 Contains a script to use with detectron2 coco api on the AP score for segmentation evaluation
 
 You will also need to use script in modified_coco_evaluator to make it work for detectron2
+
+## Citing MetaGraspNet
+
+If you use MetaGraspNet dataset or metric in your research, please use the following BibTeX entry.
+
+```BibTeX
+@misc{chen2021metagraspnet,
+  author =       {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
+                  Alexander Wong},
+  title =        {MetaGraspNet},
+  howpublished = {\url{https://https://github.com/y2863/MetaGraspNet}},
+  year =         {2021}
+}
+```

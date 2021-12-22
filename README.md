@@ -44,10 +44,10 @@ If you use MetaGraspNet dataset or metric in your research, please use the follo
 
 ```BibTeX
 @misc{chen2021metagraspnet,
-  author =       {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
-                  Alexander Wong},
-  title =        {MetaGraspNet},
-  howpublished = {\url{https://https://github.com/y2863/MetaGraspNet}},
-  year =         {2021}
+author = {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
+Alexander Wong},
+title = {MetaGraspNet: a large-scale benchmark dataset for vision-driven robotic grasping via physics-based metaverse synthesis},
+howpublished = {Arxiv},
+year = {2021}
 }
 ```

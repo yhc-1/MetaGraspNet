@@ -9,7 +9,7 @@ To tackle this big, diverse data problem, we are inspired by the recent rise in 
 <img src=".github/table_of_difficulties.PNG" width="500">
 * Object completeness refers to if a single object instance is visually crosscut into multiple segments
 due to occlusion.
-
+<br/><br/>
 
 The dataset (5 difficulties) can be accessed at:
 1. https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy

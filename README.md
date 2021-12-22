@@ -17,7 +17,7 @@ The dataset (5 difficulties) can be accessed at:
 ### metagraspnet_metric.py
 Contains general metagraspnet evaluation script
 
-<img src=".github/layers-figure.png" Width="800" > <img src=".github/layers-graph.png" Width="800" >
+<img src=".github/layers-figure.png" Width="500" > <img src=".github/layers-graph.png" Width="500" >
 
 Our proposed metric focuses on evaluating top
 and secondary layer objects. This is driven by the fact that in real-life practical scenarios, top and secondary layer objects have a priority to be picked, while picking the rest of objects requires moving away top and secondary layer objects. Besides evaluating model performance for top and secondary objects separately, we propose a layout-weighted metric which considers the model performance on both

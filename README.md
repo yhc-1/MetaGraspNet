@@ -7,18 +7,22 @@ To tackle this big, diverse data problem, we are inspired by the recent rise in 
 
 <img src=".github/Image_Dataset.png" >
 <img src=".github/table_of_difficulties.PNG" width="500">
+* Object completeness refers to if a single object instance is visually crosscut into multiple segments
+due to occlusion.
+<br/><br/>
 
 The dataset (5 difficulties) can be accessed at:
-- a) https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy
-- b) https://www.kaggle.com/metagrasp/metagraspnetdifficulty2-medium
-- c) https://www.kaggle.com/metagrasp/metagraspnetdifficulty3-hard1
-- d) https://www.kaggle.com/metagrasp/metagraspnetdifficulty4-hard2
-- f) https://www.kaggle.com/metagrasp/metagraspnetdifficulty5-very-hard
+1. https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy
+2. https://www.kaggle.com/metagrasp/metagraspnetdifficulty2-medium
+3. https://www.kaggle.com/metagrasp/metagraspnetdifficulty3-hard1
+4. https://www.kaggle.com/metagrasp/metagraspnetdifficulty4-hard2
+5. https://www.kaggle.com/metagrasp/metagraspnetdifficulty5-very-hard
 
+## Scripts
 ### metagraspnet_metric.py
 Contains general metagraspnet evaluation script
 
-<img src=".github/layers-figure.png" width="500" > <img src=".github/layers-graph.png" width="500" >
+<img src=".github/layers-figure.png" width="300" > <img src=".github/layers-graph.png" width="400" >
 
 Our proposed metric focuses on evaluating top
 and secondary layer objects. This is driven by the fact that in real-life practical scenarios, top and secondary layer objects have a priority to be picked, while picking the rest of objects requires moving away top and secondary layer objects. Besides evaluating model performance for top and secondary objects separately, we propose a layout-weighted metric which considers the model performance on both
@@ -40,10 +44,10 @@ If you use MetaGraspNet dataset or metric in your research, please use the follo
 
 ```BibTeX
 @misc{chen2021metagraspnet,
-  author =       {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
-                  Alexander Wong},
-  title =        {MetaGraspNet},
-  howpublished = {\url{https://https://github.com/y2863/MetaGraspNet}},
-  year =         {2021}
+author = {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
+Alexander Wong},
+title = {MetaGraspNet: a large-scale benchmark dataset for vision-driven robotic grasping via physics-based metaverse synthesis},
+howpublished = {Arxiv},
+year = {2021}
 }
 ```

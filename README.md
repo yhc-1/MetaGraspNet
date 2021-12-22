@@ -6,7 +6,7 @@ Robotic grasping requires a variety of computer vision tasks such as object dete
 To tackle this big, diverse data problem, we are inspired by the recent rise in the concept of metaverse, which has greatly closed the gap between virtual worlds and the physical world. In particular, metaverses allow us to create digital twins of real-world manufacturing scenarios and to virtually create different scenarios from which large volumes of data can be generated for training models. We present MetaGraspNet: a large-scale benchmark dataset for vision-driven robotic grasping via physics-based metaverse synthesis. The proposed dataset contains 100,000 images and 25 different object types, and is split into 5 difficulties to evaluate object detection and segmentation model performance in different grasping scenarios. We also propose a new layout-weighted performance metric alongside the dataset for evaluating object detection and segmentation performance in a manner that is more appropriate for robotic grasp applications compared to existing general-purpose performance metrics. This repository contains scripts for layout-weighted performance metric.
 
 <img src=".github/Image_Dataset.png" >
-<img src=".github/table_of_difficulties.png" >
+<img src=".github/table_of_difficulties.PNG" width="500">
 
 The dataset (5 difficulties) can be accessed at:
 - a) https://www.kaggle.com/metagrasp/metagraspnetdifficulty1-easy
@@ -18,7 +18,7 @@ The dataset (5 difficulties) can be accessed at:
 ### metagraspnet_metric.py
 Contains general metagraspnet evaluation script
 
-<img src=".github/layers-figure.png" Width="500" > <img src=".github/layers-graph.png" Width="500" >
+<img src=".github/layers-figure.png" width="500" > <img src=".github/layers-graph.png" width="500" >
 
 Our proposed metric focuses on evaluating top
 and secondary layer objects. This is driven by the fact that in real-life practical scenarios, top and secondary layer objects have a priority to be picked, while picking the rest of objects requires moving away top and secondary layer objects. Besides evaluating model performance for top and secondary objects separately, we propose a layout-weighted metric which considers the model performance on both

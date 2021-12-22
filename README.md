@@ -15,6 +15,7 @@ The dataset (5 difficulties) can be accessed at:
 4. https://www.kaggle.com/metagrasp/metagraspnetdifficulty4-hard2
 5. https://www.kaggle.com/metagrasp/metagraspnetdifficulty5-very-hard
 
+## Scripts
 ### metagraspnet_metric.py
 Contains general metagraspnet evaluation script
 

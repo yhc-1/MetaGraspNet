@@ -53,7 +53,7 @@ If you use MetaGraspNet dataset or metric in your research, please use the follo
 	author = {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
 Alexander Wong},
 	title = {MetaGraspNet: a large-scale benchmark dataset for vision-driven robotic grasping via physics-based metaverse synthesis},
-	journal = {https://arxiv.org/abs/2112.14663},
+	journal = {arXiv preprint arXiv:2112.14663},
 	year = {2021}
 }
 

@@ -49,13 +49,6 @@ You will also need to use script in modified_coco_evaluator to make it work for 
 If you use MetaGraspNet dataset or metric in your research, please use the following BibTeX entry.
 
 ```BibTeX
-@misc{chen2021metagraspnet,
-author = {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
-Alexander Wong},
-title = {MetaGraspNet: a large-scale benchmark dataset for vision-driven robotic grasping via physics-based metaverse synthesis},
-howpublished = {Arxiv},
-year = {2021}
-}
 @article{chen2021metagraspnet,
 	author = {Yuhao Chen and E. Zhixuan Zeng and Maximilian Gilles and
 Alexander Wong},

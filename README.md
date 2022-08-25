@@ -1,4 +1,7 @@
-# MetaGraspNet Dataset
+# News
+Version 1 of MetaGraspNet is available at https://github.com/maximiliangilles/MetaGraspNet
+
+# MetaGraspNet Dataset V0
 
 This repository contains the evaluation metric code for MetaGraspNet Dataset described in the paper "MetaGraspNet: A Large-Scale Benchmark Dataset for Vision-driven Robotic Grasping via Physics-based Metaverse Synthesis" (https://arxiv.org/abs/2112.14663).
 
